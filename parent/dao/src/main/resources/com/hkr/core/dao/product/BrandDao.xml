@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- namespace:接口的全路径 -->
+<mapper namespace="com.hkr.core.dao.product.BrandDao">
+	<sql id="brand_where">
+		<where>
+			<if test="name != null">
+				and name like '%${name}%'
+			</if>
+			<if test="isDisplay != null">
+				and is_display=#{isDisplay}
+			</if>
+		</where>
+	</sql>
+	
+	<!-- 查询品牌列表 -->
+	<select id="findBrandByNameAndIsDisplay" parameterType="com.hkr.core.pojo.product.BrandQuery" 
+	resultType="com.hkr.core.pojo.product.Brand">
+	select id , name , description , img_url imgUrl , sort , is_display isDisplay from bbs_brand
+		<include refid="brand_where"/>
+	</select>
+	
+	<!-- 分页-->
+	<select id="findBrandPageByQuery" parameterType="com.hkr.core.pojo.product.BrandQuery" 
+	resultType="com.hkr.core.pojo.product.Brand">
+	select id , name , description , img_url imgUrl , sort , is_display isDisplay from bbs_brand
+		<include refid="brand_where"/>
+		limit #{startRow},#{pageSize}
+	</select>
+	
+	<!-- 总条数 -->
+	<select id="findBrandPageByQueryCount" parameterType="com.hkr.core.pojo.product.BrandQuery" 
+	resultType="int">
+	select 
+	count(*) 
+	from bbs_brand
+	<include refid="brand_where"/>
+	</select>
+	
+	<!-- 修改 -->
+	<select id="findBrandById" parameterType="long" resultType="com.hkr.core.pojo.product.Brand">
+		select 
+			id , name , description , img_url imgUrl , sort , is_display isDisplay
+		from
+			bbs_brand
+		where
+			id = #{id}
+	</select>
+	
+	<!-- 提交 -->
+	<select id="updateBrand" parameterType="com.hkr.core.pojo.product.Brand">
+		update bbs_brand
+		<set>
+			<if test="name != null">name=#{name},</if>
+			<if test="description != null">description=#{description},</if>
+			<if test="imgUrl != null">img_url=#{imgUrl},</if>
+			<if test="sort != null">sort=#{sort},</if>
+			<if test="isDisplay != null">is_display=#{isDisplay},</if>
+		</set>
+		where id=#{id}
+	</select>
+	
+	
+	<!-- 批量删除 -->
+	<delete id="delBrandAll" parameterType="long[]">
+		delete from 
+		bbs_brand
+		<where>
+			<foreach collection="array" item="id" open="id in(" close=")" separator=",">
+			#{id}
+			</foreach>
+		</where>
+	</delete>
+	
+	
+</mapper>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.008" errors="2" skipped="0" tests="2" name="com.hkr.core.test.TestTbTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program_Files\Java\jdk1.7.0_80\jre\bin"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\eclipse\workspace2\parent"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\eclipse\workspace2\parent"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Program_Files\Java\jdk1.7.0_80\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\11148\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\eclipse\workspace2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8178036705569592849.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program_Files\Java\jdk1.7.0_80\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Xftp6\;D:\Xshell6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program_Files\Java\jdk1.7.0_80\bin;D:\mysql-5.6.24-win32\bin;D:\Program_Files\apache-tomcat-7.0.52\bin;D:\Program_Files\maven\apache-maven-3.3.9\bin;C:\Users\11148\AppData\Local\Microsoft\WindowsApps;C:\Users\11148\AppData\Local\BypassRuntm;C:\Users\11148\AppData\Local\Programs\Fiddler;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\11148"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="11148"/>
+    <property name="java.class.path" value="D:\Program_Files\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program_Files\Java\jdk1.7.0_80\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s D:\Program_Files\maven\apache-maven-3.3.9\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.ext.dirs" value="D:\Program_Files\Java\jdk1.7.0_80\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program_Files\Java\jdk1.7.0_80\jre\lib\resources.jar;D:\Program_Files\Java\jdk1.7.0_80\jre\lib\rt.jar;D:\Program_Files\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;D:\Program_Files\Java\jdk1.7.0_80\jre\lib\jsse.jar;D:\Program_Files\Java\jdk1.7.0_80\jre\lib\jce.jar;D:\Program_Files\Java\jdk1.7.0_80\jre\lib\charsets.jar;D:\Program_Files\Java\jdk1.7.0_80\jre\lib\jfr.jar;D:\Program_Files\Java\jdk1.7.0_80\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Program_Files\maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.006" classname="com.hkr.core.test.TestTbTest" name="testInsertTb">
+    <error message="Error creating bean with name &apos;com.hkr.core.test.TestTbTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}" type="org.springframework.beans.factory.BeanCreationException">org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.hkr.core.test.TestTbTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 32 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 34 more
+</error>
+    <system-out>DEBUG[main]-SpringJUnit4ClassRunner constructor called with [class com.hkr.core.test.TestTbTest].
+DEBUG[main]-Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+DEBUG[main]-Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@16393296 declaringClass = &apos;com.hkr.core.test.TestTbTest&apos;, classes = &apos;{}&apos;, locations = &apos;{classpath:application-context.xml}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+DEBUG[main]-Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.hkr.core.test.TestTbTest]
+DEBUG[main]-@TestExecutionListeners is not present for class [com.hkr.core.test.TestTbTest]: using defaults.
+ INFO[main]-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+ INFO[main]-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@40fc801f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@13f948e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7531f745, org.springframework.test.context.transaction.TransactionalTestExecutionListener@23610f1f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3927ce5e]
+DEBUG[main]-Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hkr.core.test.TestTbTest]
+DEBUG[main]-Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hkr.core.test.TestTbTest]
+DEBUG[main]-Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hkr.core.test.TestTbTest]
+DEBUG[main]-Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hkr.core.test.TestTbTest]
+DEBUG[main]-Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hkr.core.test.TestTbTest]
+DEBUG[main]-Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hkr.core.test.TestTbTest]
+DEBUG[main]-Performing dependency injection for test context [[DefaultTestContext@8cc5c38 testClass = TestTbTest, testInstance = com.hkr.core.test.TestTbTest@20ba650b, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2d3fc5f6 testClass = TestTbTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].
+DEBUG[main]-Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@2d3fc5f6 testClass = TestTbTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]].
+DEBUG[main]-Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@2d3fc5f6 testClass = TestTbTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+DEBUG[main]-Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG[main]-Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG[main]-Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ INFO[main]-Loading XML bean definitions from class path resource [application-context.xml]
+DEBUG[main]-Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG[main]-Loading schema mappings from [META-INF/spring.schemas]
+DEBUG[main]-Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.10.0.xsd=activemq.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.7.0.xsd=activemq.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.1.0.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.5.1.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://activemq.apache.org/schema/core=activemq.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.6.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.2.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.0.0.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://code.alibabatech.com/schema/dubbo/dubbo.xsd=META-INF/dubbo.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.5.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.2.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.1.xsd=activemq.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-4.1.xsd=org/springframework/jms/config/spring-jms-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core.xsd=activemq.xsd, http://activemq.org/config/1.0=activemq.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://activemq.org/config/1.0/1.0.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.1.xsd=activemq.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.0.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-4.0.xsd=org/springframework/jms/config/spring-jms-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.9.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.0.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://activemq.apache.org/schema/core/activemq-core-5.8.0.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.2.0.xsd=activemq.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+DEBUG[main]-Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+DEBUG[main]-Loading bean definitions
+DEBUG[main]-Looking for matching resources in directory tree [D:\eclipse\workspace2\parent\product-service\target\classes\config]
+DEBUG[main]-Searching directory [D:\eclipse\workspace2\parent\product-service\target\classes\config] for files matching pattern [D:/eclipse/workspace2/parent/product-service/target/classes/config/*.xml]
+DEBUG[main]-Resolved location pattern [file:/D:/eclipse/workspace2/parent/product-service/target/classes/config/*.xml] to resources [file [D:\eclipse\workspace2\parent\product-service\target\classes\config\annotation.xml], file [D:\eclipse\workspace2\parent\product-service\target\classes\config\jdbc.xml], file [D:\eclipse\workspace2\parent\product-service\target\classes\config\mybatis.xml], file [D:\eclipse\workspace2\parent\product-service\target\classes\config\trans.xml]]
+ INFO[main]-Loading XML bean definitions from file [D:\eclipse\workspace2\parent\product-service\target\classes\config\annotation.xml]
+DEBUG[main]-Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG[main]-Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+DEBUG[main]-Found XML schema [http://www.springframework.org/schema/context/spring-context-4.0.xsd] in classpath: org/springframework/context/config/spring-context-4.0.xsd
+DEBUG[main]-Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+DEBUG[main]-Loading bean definitions
+DEBUG[main]-Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://code.alibabatech.com/schema/dubbo=com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://activemq.apache.org/schema/core=org.apache.xbean.spring.context.v2.XBeanNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+DEBUG[main]-Looking for matching resources in directory tree [D:\eclipse\workspace2\parent\product-service\target\test-classes\com\hkr]
+DEBUG[main]-Searching directory [D:\eclipse\workspace2\parent\product-service\target\test-classes\com\hkr] for files matching pattern [D:/eclipse/workspace2/parent/product-service/target/test-classes/com/hkr/**/*.class]
+DEBUG[main]-Searching directory [D:\eclipse\workspace2\parent\product-service\target\test-classes\com\hkr\core] for files matching pattern [D:/eclipse/workspace2/parent/product-service/target/test-classes/com/hkr/**/*.class]
+DEBUG[main]-Searching directory [D:\eclipse\workspace2\parent\product-service\target\test-classes\com\hkr\core\test] for files matching pattern [D:/eclipse/workspace2/parent/product-service/target/test-classes/com/hkr/**/*.class]
+DEBUG[main]-Looking for matching resources in directory tree [D:\eclipse\workspace2\parent\product-service\target\classes\com\hkr]
+DEBUG[main]-Searching directory [D:\eclipse\workspace2\parent\product-service\target\classes\com\hkr] for files matching pattern [D:/eclipse/workspace2/parent/product-service/target/classes/com/hkr/**/*.class]
+DEBUG[main]-Searching directory [D:\eclipse\workspace2\parent\product-service\target\classes\com\hkr\core] for files matching pattern [D:/eclipse/workspace2/parent/product-service/target/classes/com/hkr/**/*.class]
+DEBUG[main]-Searching directory [D:\eclipse\workspace2\parent\product-service\target\classes\com\hkr\core\service] for files matching pattern [D:/eclipse/workspace2/parent/product-service/target/classes/com/hkr/**/*.class]
+DEBUG[main]-Looking for matching resources in jar file [file:/D:/eclipse/workspace2/parent/dao/target/dao-0.0.1-SNAPSHOT.jar]
+DEBUG[main]-Looking for matching resources in jar file [file:/D:/eclipse/workspace2/parent/pojo/target/pojo-0.0.1-SNAPSHOT.jar]
+DEBUG[main]-Looking for matching resources in jar file [file:/D:/eclipse/workspace2/parent/interface/target/interface-0.0.1-SNAPSHOT.jar]
+DEBUG[main]-Resolved location pattern [classpath*:com/hkr/**/*.class] to resources [file [D:\eclipse\workspace2\parent\product-service\target\test-classes\com\hkr\core\test\TestTbTest.class], file [D:\eclipse\workspace2\parent\product-service\target\classes\com\hkr\core\service\TbTestServiceImpl.class], URL [jar:file:/D:/eclipse/workspace2/parent/dao/target/dao-0.0.1-SNAPSHOT.jar!/com/hkr/core/dao/TbTestDao.class], URL [jar:file:/D:/eclipse/workspace2/parent/pojo/target/pojo-0.0.1-SNAPSHOT.jar!/com/hkr/core/pojo/TbTest.class], URL [jar:file:/D:/eclipse/workspace2/parent/interface/target/interface-0.0.1-SNAPSHOT.jar!/com/hkr/core/service/TbTestService.class]]
+DEBUG[main]-Identified candidate component class: file [D:\eclipse\workspace2\parent\product-service\target\classes\com\hkr\core\service\TbTestServiceImpl.class]
+ INFO[main]-Loading XML bean definitions from file [D:\eclipse\workspace2\parent\product-service\target\classes\config\jdbc.xml]
+DEBUG[main]-Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG[main]-Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+DEBUG[main]-Loading bean definitions
+DEBUG[main]-Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]
+ INFO[main]-Loading XML bean definitions from file [D:\eclipse\workspace2\parent\product-service\target\classes\config\mybatis.xml]
+DEBUG[main]-Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG[main]-Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+DEBUG[main]-Loading bean definitions
+DEBUG[main]-Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+ INFO[main]-Loading XML bean definitions from file [D:\eclipse\workspace2\parent\product-service\target\classes\config\trans.xml]
+DEBUG[main]-Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG[main]-Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+DEBUG[main]-Found XML schema [http://www.springframework.org/schema/tx/spring-tx-4.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-4.0.xsd
+DEBUG[main]-Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+DEBUG[main]-Loading bean definitions
+DEBUG[main]-Loaded 14 bean definitions from location pattern [file:/D:/eclipse/workspace2/parent/product-service/target/classes/config/*.xml]
+DEBUG[main]-Imported 14 bean definitions from relative location [config/*.xml]
+DEBUG[main]-Loaded 14 bean definitions from location pattern [classpath:application-context.xml]
+ INFO[main]-Refreshing org.springframework.context.support.GenericApplicationContext@47dccc2: startup date [Mon Aug 24 21:09:00 CST 2020]; root of context hierarchy
+DEBUG[main]-Bean factory for org.springframework.context.support.GenericApplicationContext@47dccc2: org.springframework.beans.factory.support.DefaultListableBeanFactory@7f0c1444: defining beans [tbTestServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+DEBUG[main]-Creating instance of bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos; to allow for resolving potential circular references
+DEBUG[main]-Invoking afterPropertiesSet() on bean with name &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+DEBUG[main]-Finished creating instance of bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+DEBUG[main]-Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG[main]-Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG[main]-Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG[main]-Looking for matching resources in jar file [file:/D:/eclipse/workspace2/parent/dao/target/dao-0.0.1-SNAPSHOT.jar]
+DEBUG[main]-Resolved location pattern [classpath*:com/hkr/core/dao/**/*.class] to resources [URL [jar:file:/D:/eclipse/workspace2/parent/dao/target/dao-0.0.1-SNAPSHOT.jar!/com/hkr/core/dao/TbTestDao.class]]
+DEBUG[main]-Identified candidate component class: URL [jar:file:/D:/eclipse/workspace2/parent/dao/target/dao-0.0.1-SNAPSHOT.jar!/com/hkr/core/dao/TbTestDao.class]
+DEBUG[main]-Creating MapperFactoryBean with name &apos;tbTestDao&apos; and &apos;com.hkr.core.dao.TbTestDao&apos; mapperInterface
+DEBUG[main]-Enabling autowire by type for MapperFactoryBean with name &apos;tbTestDao&apos;.
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos; to allow for resolving potential circular references
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos;
+ INFO[main]-Loading properties file from class path resource [jdbc.properties]
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos; to allow for resolving potential circular references
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos; to allow for resolving potential circular references
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos; to allow for resolving potential circular references
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG[main]-Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@64d5ea2c]
+DEBUG[main]-Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@464d0214]
+DEBUG[main]-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7f0c1444: defining beans [tbTestServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,tbTestDao]; root of factory hierarchy
+DEBUG[main]-Creating shared instance of singleton bean &apos;tbTestServiceImpl&apos;
+DEBUG[main]-Creating instance of bean &apos;tbTestServiceImpl&apos;
+DEBUG[main]-Registered injected element on class [com.hkr.core.service.TbTestServiceImpl]: AutowiredFieldElement for private com.hkr.core.dao.TbTestDao com.hkr.core.service.TbTestServiceImpl.tbDao
+DEBUG[main]-Eagerly caching bean &apos;tbTestServiceImpl&apos; to allow for resolving potential circular references
+DEBUG[main]-Processing injected method of bean &apos;tbTestServiceImpl&apos;: AutowiredFieldElement for private com.hkr.core.dao.TbTestDao com.hkr.core.service.TbTestServiceImpl.tbDao
+DEBUG[main]-Logging initialized using &apos;class org.apache.ibatis.logging.slf4j.Slf4jImpl&apos; adapter.
+DEBUG[main]-Creating shared instance of singleton bean &apos;tbTestDao&apos;
+DEBUG[main]-Creating instance of bean &apos;tbTestDao&apos;
+DEBUG[main]-Eagerly caching bean &apos;tbTestDao&apos; to allow for resolving potential circular references
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos; to allow for resolving potential circular references
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos; to allow for resolving potential circular references
+DEBUG[main]-Skipping currently created advisor &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Returning eagerly cached instance of singleton bean &apos;tbTestDao&apos; that is not fully initialized yet - a consequence of a circular reference
+DEBUG[main]-Creating shared instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG[main]-Creating instance of bean &apos;sqlSessionFactory&apos;
+DEBUG[main]-Eagerly caching bean &apos;sqlSessionFactory&apos; to allow for resolving potential circular references
+DEBUG[main]-Creating shared instance of singleton bean &apos;dataSource&apos;
+DEBUG[main]-Creating instance of bean &apos;dataSource&apos;
+DEBUG[main]-Eagerly caching bean &apos;dataSource&apos; to allow for resolving potential circular references
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Finished creating instance of bean &apos;dataSource&apos;
+DEBUG[main]-Invoking afterPropertiesSet() on bean with name &apos;sqlSessionFactory&apos;
+DEBUG[main]-Parsed configuration file: &apos;class path resource [mybatis-config.xml]&apos;
+DEBUG[main]-Property &apos;mapperLocations&apos; was not specified or no matching resources found
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Finished creating instance of bean &apos;sqlSessionFactory&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Autowiring by type from bean name &apos;tbTestDao&apos; via property &apos;sqlSessionFactory&apos; to bean named &apos;sqlSessionFactory&apos;
+DEBUG[main]-Invoking afterPropertiesSet() on bean with name &apos;tbTestDao&apos;
+DEBUG[main]-Finished creating instance of bean &apos;tbTestDao&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;tbTestDao&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Autowiring by type from bean name &apos;tbTestServiceImpl&apos; to bean named &apos;tbTestDao&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Adding transactional method &apos;TbTestServiceImpl.insertTbTest&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG[main]-Creating implicit proxy for bean &apos;tbTestServiceImpl&apos; with 0 common interceptors and 1 specific interceptors
+DEBUG[main]-Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.hkr.core.service.TbTestServiceImpl@54a436ce]
+DEBUG[main]-Finished creating instance of bean &apos;tbTestServiceImpl&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;dataSource&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+DEBUG[main]-Creating shared instance of singleton bean &apos;transactionManager&apos;
+DEBUG[main]-Creating instance of bean &apos;transactionManager&apos;
+DEBUG[main]-Eagerly caching bean &apos;transactionManager&apos; to allow for resolving potential circular references
+DEBUG[main]-Returning cached instance of singleton bean &apos;dataSource&apos;
+DEBUG[main]-Invoking afterPropertiesSet() on bean with name &apos;transactionManager&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Finished creating instance of bean &apos;transactionManager&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG[main]-Creating shared instance of singleton bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG[main]-Creating instance of bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG[main]-Eagerly caching bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos; to allow for resolving potential circular references
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG[main]-Invoking afterPropertiesSet() on bean with name &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG[main]-Finished creating instance of bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;tbTestDao&apos;
+DEBUG[main]-Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@58b5319d]
+DEBUG[main]-Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
+DEBUG[main]-Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG[main]-Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [systemProperties]
+DEBUG[main]-Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [systemEnvironment]
+DEBUG[main]-Could not find key &apos;spring.liveBeansView.mbeanDomain&apos; in any property source. Returning [null]
+DEBUG[main]-Storing ApplicationContext in cache under key [[MergedContextConfiguration@2d3fc5f6 testClass = TestTbTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]
+DEBUG[main]-Spring test ApplicationContext cache statistics: [ContextCache@3603e470 size = 1, hitCount = 0, missCount = 1, parentContextCount = 0]
+DEBUG[main]-Processing injected method of bean &apos;com.hkr.core.test.TestTbTest&apos;: AutowiredFieldElement for private com.hkr.core.dao.TbTestDao com.hkr.core.test.TestTbTest.tbDao
+DEBUG[main]-Returning cached instance of singleton bean &apos;tbTestDao&apos;
+DEBUG[main]-Autowiring by type from bean name &apos;com.hkr.core.test.TestTbTest&apos; to bean named &apos;tbTestDao&apos;
+DEBUG[main]-Processing injected method of bean &apos;com.hkr.core.test.TestTbTest&apos;: AutowiredFieldElement for private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService
+ERROR[main]-Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@13f948e] to prepare test instance [com.hkr.core.test.TestTbTest@20ba650b]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.hkr.core.test.TestTbTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 32 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 34 more
+</system-out>
+    <system-err>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/Program_Files/maven/repository/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/Program_Files/maven/repository/org/apache/activemq/activemq-all/5.8.0/activemq-all-5.8.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+</system-err>
+  </testcase>
+  <testcase time="0.002" classname="com.hkr.core.test.TestTbTest" name="testInsertTbService">
+    <error message="Error creating bean with name &apos;com.hkr.core.test.TestTbTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}" type="org.springframework.beans.factory.BeanCreationException">org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.hkr.core.test.TestTbTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 32 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 34 more
+</error>
+    <system-out>DEBUG[main]-Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hkr.core.test.TestTbTest]
+DEBUG[main]-Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hkr.core.test.TestTbTest]
+DEBUG[main]-Performing dependency injection for test context [[DefaultTestContext@8cc5c38 testClass = TestTbTest, testInstance = com.hkr.core.test.TestTbTest@5b15f2fc, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2d3fc5f6 testClass = TestTbTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].
+DEBUG[main]-Retrieved ApplicationContext from cache with key [[MergedContextConfiguration@2d3fc5f6 testClass = TestTbTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]
+DEBUG[main]-Spring test ApplicationContext cache statistics: [ContextCache@3603e470 size = 1, hitCount = 1, missCount = 1, parentContextCount = 0]
+DEBUG[main]-Processing injected method of bean &apos;com.hkr.core.test.TestTbTest&apos;: AutowiredFieldElement for private com.hkr.core.dao.TbTestDao com.hkr.core.test.TestTbTest.tbDao
+DEBUG[main]-Returning cached instance of singleton bean &apos;tbTestDao&apos;
+DEBUG[main]-Processing injected method of bean &apos;com.hkr.core.test.TestTbTest&apos;: AutowiredFieldElement for private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService
+ERROR[main]-Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@13f948e] to prepare test instance [com.hkr.core.test.TestTbTest@5b15f2fc]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.hkr.core.test.TestTbTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hkr.core.service.TbTestServiceImpl com.hkr.core.test.TestTbTest.tbService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 32 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hkr.core.service.TbTestServiceImpl] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 34 more
+</system-out>
+  </testcase>
+</testsuite>
