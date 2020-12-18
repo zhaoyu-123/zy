@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- namespace:接口的全路径 -->
+<mapper namespace="com.hkr.core.dao.TbTestDao">
+	<!-- parameterType:实体类全路径 -->
+	<insert id="insertTbTest" parameterType="com.hkr.core.pojo.TbTest">
+		insert into tb_test (name,birthday) values (#{name},#{birthday})
+	</insert>
+</mapper>
